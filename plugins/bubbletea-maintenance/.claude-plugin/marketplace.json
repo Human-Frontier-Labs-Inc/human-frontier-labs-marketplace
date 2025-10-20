@@ -1,0 +1,22 @@
+{
+  "name": "bubbletea-maintenance",
+  "owner": {
+    "name": "William VanSickle III",
+    "email": "noreply@example.com"
+  },
+  "metadata": {
+    "description": "Expert Bubble Tea maintenance and debugging agent - diagnoses issues, applies best practices, and enhances existing Go/Bubble Tea TUI applications",
+    "version": "1.0.0",
+    "created": "2025-10-19",
+    "tags": ["bubble-tea", "go", "tui", "debugging", "maintenance", "performance", "bubbletea", "lipgloss"]
+  },
+  "plugins": [
+    {
+      "name": "bubbletea-maintenance-plugin",
+      "description": "Expert Bubble Tea maintenance and debugging agent specializing in diagnosing issues, applying best practices, and enhancing existing Go/Bubble Tea TUI applications. Helps developers maintain, debug, and improve their terminal user interfaces built with the Bubble Tea framework.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}

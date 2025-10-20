@@ -1,0 +1,66 @@
+{
+  "name": "human-frontier-labs-marketplace",
+  "owner": {
+    "name": "William VanSickle III",
+    "email": "noreply@humanfrontierlabs.com"
+  },
+  "metadata": {
+    "description": "Public Claude Code plugin marketplace - Bubble Tea TUI development tools, CareBridge coding standards, and distributed infrastructure management",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "carebridge-standards",
+      "source": "./plugins/carebridge-standards",
+      "description": "Comprehensive coding standards and architectural patterns for the CareBridge eldercare management application. Includes critical patterns for case context management, Stripe integration, Next.js 15 requirements, component creation rules, and database operations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "standards",
+      "keywords": ["carebridge", "nextjs", "standards", "stripe", "neon", "coding-standards"],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "bubbletea-designer",
+      "source": "./plugins/bubbletea-designer",
+      "description": "Automates Bubble Tea TUI design by analyzing requirements, mapping to appropriate components from the Charmbracelet ecosystem, generating component architecture, and creating implementation workflows. Use when designing terminal UIs, planning Bubble Tea applications, selecting components, or needing design guidance for TUI development.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Agent Creator"
+      },
+      "category": "development",
+      "keywords": ["bubble-tea", "tui", "terminal", "design", "charmbracelet", "go"],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "bubbletea-maintenance",
+      "source": "./plugins/bubbletea-maintenance",
+      "description": "Expert Bubble Tea maintenance and debugging agent specializing in diagnosing issues, applying best practices, and enhancing existing Go/Bubble Tea TUI applications. Helps developers maintain, debug, and improve their terminal user interfaces built with the Bubble Tea framework.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "development",
+      "keywords": ["bubble-tea", "go", "tui", "debugging", "maintenance", "performance", "lipgloss"],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "tailscale-sshsync-agent",
+      "source": "./plugins/tailscale-sshsync-agent",
+      "description": "Manages distributed workloads and file sharing across Tailscale SSH-connected machines. Automates remote command execution, intelligent load balancing, file synchronization workflows, host health monitoring, and multi-machine orchestration using sshsync.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Agent Creator"
+      },
+      "category": "infrastructure",
+      "keywords": ["tailscale", "ssh", "distributed", "workload", "sshsync", "remote", "orchestration"],
+      "license": "MIT",
+      "strict": false
+    }
+  ]
+}

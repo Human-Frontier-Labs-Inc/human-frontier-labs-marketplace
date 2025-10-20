@@ -1,0 +1,21 @@
+{
+  "name": "tailscale-sshsync-agent",
+  "owner": {
+    "name": "Agent Creator",
+    "email": "noreply@example.com"
+  },
+  "metadata": {
+    "description": "Intelligent workload distribution and file sharing across Tailscale SSH-connected machines using sshsync",
+    "version": "1.0.0",
+    "created": "2025-10-19"
+  },
+  "plugins": [
+    {
+      "name": "tailscale-sshsync-plugin",
+      "description": "Manages distributed workloads and file sharing across Tailscale SSH-connected machines. Automates remote command execution, intelligent load balancing, file synchronization workflows, host health monitoring, and multi-machine orchestration using sshsync. Activates when discussing remote machines, Tailscale SSH, workload distribution, file sharing, or multi-host operations.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}
