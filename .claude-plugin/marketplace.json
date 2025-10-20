@@ -61,6 +61,19 @@
       "keywords": ["tailscale", "ssh", "distributed", "workload", "sshsync", "remote", "orchestration"],
       "license": "MIT",
       "strict": false
+    },
+    {
+      "name": "distributed-gummy-orchestrator",
+      "source": "./plugins/distributed-gummy-orchestrator",
+      "description": "Orchestrate gummy-agents across distributed network using 'dw' command for load-balanced, multi-host AI development. Automates distributed Claude Code agents for parallel development workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "WillyV3"
+      },
+      "category": "development",
+      "keywords": ["gummy", "distributed", "orchestration", "ai-agents", "load-balancing", "multi-host", "claude-code"],
+      "license": "MIT",
+      "strict": false
     }
   ]
 }

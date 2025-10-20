@@ -21,6 +21,7 @@ Or install individual plugins:
 /plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/bubbletea-designer
 /plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/bubbletea-maintenance
 /plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/tailscale-sshsync-agent
+/plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/distributed-gummy-orchestrator
 ```
 
 ---
@@ -151,6 +152,43 @@ Manages distributed workloads and file sharing across Tailscale SSH-connected ma
 
 ---
 
+### 🤖 Distributed Gummy Orchestrator
+
+**Category**: Development
+**Version**: 1.0.0
+
+Orchestrate gummy-agents across distributed network using 'dw' command for load-balanced, multi-host AI development.
+
+**Features:**
+- Distributed Claude Code agent orchestration
+- Load-balanced task distribution across hosts
+- Multi-host parallel development workflows
+- Intelligent agent routing with 'dw' command
+- Network-aware agent spawning
+- Automated workload distribution
+
+**Use When:**
+- Running AI development tasks across multiple machines
+- Need parallel Claude Code agents on different hosts
+- Distributing heavy computation across your network
+- Orchestrating multi-host development workflows
+- Load-balancing AI agent tasks
+
+**Activation Keywords:**
+- "distribute this task across hosts"
+- "run gummy agent on remote machine"
+- "orchestrate distributed development"
+- "spawn agents across network"
+- "load balance this work"
+
+**Prerequisites:**
+- gummy-agent installed on all hosts
+- Network connectivity between machines
+- 'dw' command configured
+- Host configuration file
+
+---
+
 ## Plugin Categories
 
 ### Coding Standards
@@ -159,6 +197,7 @@ Manages distributed workloads and file sharing across Tailscale SSH-connected ma
 ### Development Tools
 - **bubbletea-designer** - TUI design automation
 - **bubbletea-maintenance** - TUI debugging and optimization
+- **distributed-gummy-orchestrator** - Distributed AI agent orchestration
 
 ### Infrastructure
 - **tailscale-sshsync-agent** - Distributed workload management and file sharing
