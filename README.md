@@ -2,7 +2,7 @@
 
 Public marketplace for Claude Code plugins focused on development tools, coding standards, and terminal UI applications.
 
-**Repository**: https://github.com/williavs/human-frontier-labs-marketplace
+**Repository**: https://github.com/Human-Frontier-Labs-Inc/human-frontier-labs-marketplace
 
 ---
 
@@ -11,16 +11,16 @@ Public marketplace for Claude Code plugins focused on development tools, coding 
 Install the entire marketplace:
 
 ```bash
-/plugin marketplace add williavs/human-frontier-labs-marketplace
+/plugin marketplace add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace
 ```
 
 Or install individual plugins:
 
 ```bash
-/plugin add williavs/human-frontier-labs-marketplace/carebridge-standards
-/plugin add williavs/human-frontier-labs-marketplace/bubbletea-designer
-/plugin add williavs/human-frontier-labs-marketplace/bubbletea-maintenance
-/plugin add williavs/human-frontier-labs-marketplace/tailscale-sshsync-agent
+/plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/carebridge-standards
+/plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/bubbletea-designer
+/plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/bubbletea-maintenance
+/plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/tailscale-sshsync-agent
 ```
 
 ---
@@ -170,7 +170,7 @@ Manages distributed workloads and file sharing across Tailscale SSH-connected ma
 ### 1. Install Marketplace
 
 ```bash
-/plugin marketplace add williavs/human-frontier-labs-marketplace
+/plugin marketplace add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace
 ```
 
 ### 2. List Available Plugins
@@ -228,7 +228,7 @@ Each plugin includes comprehensive documentation:
 
 Want to add your plugin to this marketplace?
 
-1. Fork this repository
+1. Fork https://github.com/Human-Frontier-Labs-Inc/human-frontier-labs-marketplace
 2. Add your plugin to `plugins/`
 3. Update `.claude-plugin/marketplace.json`
 4. Submit a pull request
@@ -249,7 +249,7 @@ All plugins in this marketplace are MIT licensed unless otherwise specified.
 
 ## Support
 
-**Issues**: https://github.com/williavs/human-frontier-labs-marketplace/issues
+**Issues**: https://github.com/Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/issues
 
 **Questions**: Open a discussion on GitHub
 
