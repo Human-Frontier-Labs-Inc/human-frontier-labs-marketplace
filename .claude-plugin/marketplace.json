@@ -74,6 +74,19 @@
       "keywords": ["gummy", "distributed", "orchestration", "ai-agents", "load-balancing", "multi-host", "claude-code"],
       "license": "MIT",
       "strict": false
+    },
+    {
+      "name": "cie-builder",
+      "source": "./plugins/cie-builder",
+      "description": "Build the Chuqlab Intelligence Engine (CIE) - a multi-tenant correctional intelligence platform. Guides phased, TDD-driven development of a GovTech law enforcement platform on GCP with Go backend, React/Next.js frontend, Whisper transcription, Ruvector vector search, and full TX-RAMP/CJIS compliance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cornelius George"
+      },
+      "category": "development",
+      "keywords": ["cie", "correctional-intelligence", "govtech", "law-enforcement", "whisper", "ruvector", "tdd", "gcp", "compliance", "cjis", "tx-ramp"],
+      "license": "MIT",
+      "strict": false
     }
   ]
 }

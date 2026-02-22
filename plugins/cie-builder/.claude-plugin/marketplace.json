@@ -1,0 +1,21 @@
+{
+  "name": "cie-builder",
+  "owner": {
+    "name": "Cornelius George",
+    "email": "noreply@chuqlab.com"
+  },
+  "metadata": {
+    "description": "CIE Builder - Chuqlab Intelligence Engine Development Guidance System",
+    "version": "1.0.0",
+    "created": "2026-02-22"
+  },
+  "plugins": [
+    {
+      "name": "cie-builder-plugin",
+      "description": "Build the Chuqlab Intelligence Engine (CIE) - a multi-tenant correctional intelligence platform. Guides phased, TDD-driven development of a GovTech law enforcement platform on GCP with Go backend, React/Next.js frontend, Whisper transcription, Ruvector vector search, and full TX-RAMP/CJIS compliance.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}
