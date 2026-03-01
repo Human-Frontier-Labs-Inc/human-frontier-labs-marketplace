@@ -76,6 +76,9 @@
       "strict": false
     },
     {
+      "name": "chuqlab-css-theme",
+      "source": "./plugins/chuqlab-css-theme",
+      "description": "Chuqlab brand CSS design system for Tailwind CSS v4. Includes brand color palette (primary navy #141246, secondary red #EC1848, accent blue #0842EA), Geist font configuration, utility classes, and design guidelines with WCAG compliance. Use when theming projects with Chuqlab branding or setting up consistent corporate design tokens.",
       "name": "cie-builder",
       "source": "./plugins/cie-builder",
       "description": "Build the Chuqlab Intelligence Engine (CIE) - a multi-tenant correctional intelligence platform. Guides phased, TDD-driven development of a GovTech law enforcement platform on GCP with Go backend, React/Next.js frontend, Whisper transcription, Ruvector vector search, and full TX-RAMP/CJIS compliance.",
@@ -83,6 +86,8 @@
       "author": {
         "name": "Cornelius George"
       },
+      "category": "design",
+      "keywords": ["css", "tailwind", "design-system", "brand", "theme", "chuqlab", "colors", "typography"],
       "category": "development",
       "keywords": ["cie", "correctional-intelligence", "govtech", "law-enforcement", "whisper", "ruvector", "tdd", "gcp", "compliance", "cjis", "tx-ramp"],
       "license": "MIT",
