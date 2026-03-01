@@ -1,0 +1,80 @@
+@layer theme, base, clerk, components, utilities;
+@import "tailwindcss";
+
+@theme {
+  /* Chuqlab Brand Colors */
+  --color-chuqlab-primary: #141246;
+  --color-chuqlab-secondary: #EC1848;
+  --color-chuqlab-accent: #0842EA;
+  --color-chuqlab-light: #f0f6ff;
+  --color-chuqlab-dark: #0a0a23;
+
+  /* Primary palette (using Chuqlab primary) */
+  --color-primary-600: #141246;
+  --color-primary-700: #0d0d30;
+  --color-primary-50: #f0f6ff;
+
+  /* Success palette */
+  --color-success-700: #027a48;
+  --color-success-50: #ecfdf3;
+
+  /* Secondary/Accent (using Chuqlab secondary) */
+  --color-secondary-600: #EC1848;
+  --color-secondary-700: #c71339;
+  --color-secondary-50: #fff1f4;
+
+  /* Accent/Info (using Chuqlab accent) */
+  --color-accent-600: #0842EA;
+  --color-accent-700: #0635bb;
+  --color-accent-50: #eff6ff;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+.background {
+  overflow: hidden;
+  background: #f8f8f8;
+  background-image: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 11px,
+      #f2f2f2 11px,
+      #f2f2f2 12px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 11px,
+      #f2f2f2 11px,
+      #f2f2f2 12px
+    );
+}
+
+.mask {
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 40px,
+    rgba(0, 0, 0, 1) calc(100% - 20px),
+    rgba(0, 0, 0, 0) 100%
+  );
+}

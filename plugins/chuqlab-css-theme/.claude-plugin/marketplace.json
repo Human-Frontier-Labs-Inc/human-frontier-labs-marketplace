@@ -1,0 +1,21 @@
+{
+  "name": "chuqlab-css-theme",
+  "owner": {
+    "name": "Cornelius George",
+    "email": "cornelius@chuqlab.com"
+  },
+  "metadata": {
+    "description": "Chuqlab Brand CSS Design System - Tailwind CSS v4 theme with brand colors, typography, and utility classes",
+    "version": "1.0.0",
+    "created": "2026-02-28"
+  },
+  "plugins": [
+    {
+      "name": "chuqlab-css-theme-plugin",
+      "description": "Applies the Chuqlab brand CSS design system to any Tailwind CSS v4 project. Includes brand color palette (primary navy #141246, secondary red #EC1848, accent blue #0842EA), Geist font configuration, and utility classes for backgrounds and masks. Use when theming a project with Chuqlab branding, setting up Tailwind v4 themes, or applying consistent corporate design tokens.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}

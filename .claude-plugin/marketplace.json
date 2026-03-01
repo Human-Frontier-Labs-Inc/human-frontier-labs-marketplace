@@ -74,6 +74,19 @@
       "keywords": ["gummy", "distributed", "orchestration", "ai-agents", "load-balancing", "multi-host", "claude-code"],
       "license": "MIT",
       "strict": false
+    },
+    {
+      "name": "chuqlab-css-theme",
+      "source": "./plugins/chuqlab-css-theme",
+      "description": "Chuqlab brand CSS design system for Tailwind CSS v4. Includes brand color palette (primary navy #141246, secondary red #EC1848, accent blue #0842EA), Geist font configuration, utility classes, and design guidelines with WCAG compliance. Use when theming projects with Chuqlab branding or setting up consistent corporate design tokens.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cornelius George"
+      },
+      "category": "design",
+      "keywords": ["css", "tailwind", "design-system", "brand", "theme", "chuqlab", "colors", "typography"],
+      "license": "MIT",
+      "strict": false
     }
   ]
 }
