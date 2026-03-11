@@ -1,3 +1,8 @@
+---
+name: bubbletea-maintenance
+description: Expert Bubble Tea maintenance and debugging agent - diagnoses issues, applies best practices, and enhances existing Go/Bubble Tea TUI applications
+---
+
 # Bubble Tea Maintenance & Debugging Agent
 
 **Version**: 1.0.0
