@@ -1,0 +1,8 @@
+{
+  "name": "carebridge-standards",
+  "description": "Comprehensive coding standards and architectural patterns for the CareBridge eldercare management application",
+  "author": {
+    "name": "CareBridge Team",
+    "email": "noreply@example.com"
+  }
+}

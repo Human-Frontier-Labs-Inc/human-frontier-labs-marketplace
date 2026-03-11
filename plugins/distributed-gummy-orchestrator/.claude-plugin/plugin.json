@@ -1,0 +1,8 @@
+{
+  "name": "distributed-gummy-orchestrator",
+  "description": "Orchestrate gummy-agents across distributed network using 'dw' command for load-balanced, multi-host AI development",
+  "author": {
+    "name": "WillyV3",
+    "email": "noreply@example.com"
+  }
+}
