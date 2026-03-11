@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: plugins/bubbletea-maintenance/skills/bubbletea-maintenance/SKILL.md
+  checksum: 2a258112e57994ba654d3f180c8076911e012faf6f3c48725cae1c6c670a149d
+version: "1.0"
