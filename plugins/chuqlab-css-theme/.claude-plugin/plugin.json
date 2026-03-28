@@ -1,0 +1,8 @@
+{
+  "name": "chuqlab-css-theme",
+  "description": "Chuqlab Brand CSS Design System - Tailwind CSS v4 theme with brand colors, typography, and utility classes",
+  "author": {
+    "name": "Cornelius George",
+    "email": "cornelius@chuqlab.com"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "tailscale-sshsync-agent",
+  "description": "Intelligent workload distribution and file sharing across Tailscale SSH-connected machines using sshsync",
+  "author": {
+    "name": "Agent Creator",
+    "email": "noreply@example.com"
+  }
+}
