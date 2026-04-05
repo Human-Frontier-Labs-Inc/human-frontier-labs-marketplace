@@ -1,0 +1,28 @@
+{
+  "compiles": true,
+  "vet_clean": true,
+  "vet_warnings": 0,
+  "anti_patterns": {
+    "os_exit_outside_main": 0,
+    "get_prefix_getters": 0,
+    "hand_rolled_sort": false,
+    "silent_error_discard": 0,
+    "raw_string_enums": true,
+    "string_typed_ports": false
+  },
+  "metrics": {
+    "total_lines": 1047,
+    "files": 6,
+    "packages": 1,
+    "interfaces": [],
+    "exported_types": 7,
+    "comment_ratio": 0.04
+  },
+  "architecture": {
+    "has_embedding": false,
+    "typed_constants": 1,
+    "lazy_init_maps": 0,
+    "constructor_count": 2,
+    "packages": 1
+  }
+}

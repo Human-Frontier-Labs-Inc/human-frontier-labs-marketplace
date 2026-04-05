@@ -1,0 +1,28 @@
+{
+  "compiles": true,
+  "vet_clean": true,
+  "vet_warnings": 0,
+  "anti_patterns": {
+    "os_exit_outside_main": 0,
+    "get_prefix_getters": 0,
+    "hand_rolled_sort": false,
+    "silent_error_discard": 5,
+    "raw_string_enums": true,
+    "string_typed_ports": false
+  },
+  "metrics": {
+    "total_lines": 1314,
+    "files": 7,
+    "packages": 1,
+    "interfaces": [{"name":"Checker","methods":1},{"name":"ConfigStore","methods":2},{"name":"HistoryStore","methods":2}],
+    "exported_types": 17,
+    "comment_ratio": 0.07
+  },
+  "architecture": {
+    "has_embedding": true,
+    "typed_constants": 4,
+    "lazy_init_maps": 0,
+    "constructor_count": 3,
+    "packages": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "compiles": true,
+  "vet_clean": false,
+  "vet_warnings": 3,
+  "anti_patterns": {
+    "os_exit_outside_main": 0,
+    "get_prefix_getters": 0,
+    "hand_rolled_sort": false,
+    "silent_error_discard": 2,
+    "raw_string_enums": false,
+    "string_typed_ports": false
+  },
+  "metrics": {
+    "total_lines": 660,
+    "files": 8,
+    "packages": 1,
+    "interfaces": [{"name":"Storage","methods":4}],
+    "exported_types": 5,
+    "comment_ratio": 0.04
+  },
+  "architecture": {
+    "has_embedding": false,
+    "typed_constants": 0,
+    "lazy_init_maps": 0,
+    "constructor_count": 2,
+    "packages": 1
+  }
+}
