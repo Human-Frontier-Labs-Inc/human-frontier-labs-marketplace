@@ -1,0 +1,19 @@
+{
+  "name": "claude-peers",
+  "version": "0.2.0",
+  "description": "Peer discovery and messaging between Claude Code sessions. UCAN-authenticated, multi-machine, push-delivered. Sessions see each other, send messages, share context automatically.",
+  "author": {
+    "name": "Human Frontier Labs"
+  },
+  "homepage": "https://github.com/WillyV3/claude-peers-go",
+  "repository": "https://github.com/WillyV3/claude-peers-go",
+  "license": "MIT",
+  "keywords": [
+    "peers",
+    "multi-agent",
+    "fleet",
+    "messaging",
+    "mcp",
+    "ucan"
+  ]
+}

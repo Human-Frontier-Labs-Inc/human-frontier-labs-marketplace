@@ -108,6 +108,17 @@
       "keywords": ["claude-code", "agents", "daemon", "hooks", "skills", "design", "methodology", "autonomous", "pipelines"],
       "license": "MIT",
       "strict": false
+    },
+    {
+      "name": "claude-peers",
+      "source": "./plugins/claude-peers",
+      "description": "Peer discovery and messaging between Claude Code sessions. UCAN-authenticated, multi-machine, push-delivered. Sessions see each other, send messages, share context automatically. Auto-installs the correct platform binary from GitHub releases on first use.",
+      "version": "0.2.0",
+      "author": { "name": "Human Frontier Labs" },
+      "category": "infrastructure",
+      "keywords": ["peers", "multi-agent", "fleet", "messaging", "mcp", "ucan", "distributed"],
+      "license": "MIT",
+      "strict": false
     }
   ]
 }
