@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code plugin marketplace - TUI tools, coding standards, AI agent infrastructure, and design methodology",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -15,9 +15,18 @@
       "source": "./plugins/carebridge-standards",
       "description": "Comprehensive coding standards and architectural patterns for the CareBridge eldercare management application. Includes critical patterns for case context management, Stripe integration, Next.js 15 requirements, component creation rules, and database operations.",
       "version": "1.0.0",
-      "author": { "name": "William VanSickle III" },
+      "author": {
+        "name": "William VanSickle III"
+      },
       "category": "standards",
-      "keywords": ["carebridge", "nextjs", "standards", "stripe", "neon", "coding-standards"],
+      "keywords": [
+        "carebridge",
+        "nextjs",
+        "standards",
+        "stripe",
+        "neon",
+        "coding-standards"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -26,9 +35,18 @@
       "source": "./plugins/bubbletea-designer",
       "description": "Automates Bubble Tea TUI design by analyzing requirements, mapping to appropriate components from the Charmbracelet ecosystem, generating component architecture, and creating implementation workflows. Use when designing terminal UIs, planning Bubble Tea applications, selecting components, or needing design guidance for TUI development.",
       "version": "1.0.0",
-      "author": { "name": "Agent Creator" },
+      "author": {
+        "name": "Agent Creator"
+      },
       "category": "development",
-      "keywords": ["bubble-tea", "tui", "terminal", "design", "charmbracelet", "go"],
+      "keywords": [
+        "bubble-tea",
+        "tui",
+        "terminal",
+        "design",
+        "charmbracelet",
+        "go"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -37,9 +55,19 @@
       "source": "./plugins/bubbletea-maintenance",
       "description": "Expert Bubble Tea maintenance and debugging agent specializing in diagnosing issues, applying best practices, and enhancing existing Go/Bubble Tea TUI applications. Helps developers maintain, debug, and improve their terminal user interfaces built with the Bubble Tea framework.",
       "version": "1.0.0",
-      "author": { "name": "William VanSickle III" },
+      "author": {
+        "name": "William VanSickle III"
+      },
       "category": "development",
-      "keywords": ["bubble-tea", "go", "tui", "debugging", "maintenance", "performance", "lipgloss"],
+      "keywords": [
+        "bubble-tea",
+        "go",
+        "tui",
+        "debugging",
+        "maintenance",
+        "performance",
+        "lipgloss"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -48,9 +76,19 @@
       "source": "./plugins/tailscale-sshsync-agent",
       "description": "Manages distributed workloads and file sharing across Tailscale SSH-connected machines. Automates remote command execution, intelligent load balancing, file synchronization workflows, host health monitoring, and multi-machine orchestration using sshsync.",
       "version": "1.0.0",
-      "author": { "name": "Agent Creator" },
+      "author": {
+        "name": "Agent Creator"
+      },
       "category": "infrastructure",
-      "keywords": ["tailscale", "ssh", "distributed", "workload", "sshsync", "remote", "orchestration"],
+      "keywords": [
+        "tailscale",
+        "ssh",
+        "distributed",
+        "workload",
+        "sshsync",
+        "remote",
+        "orchestration"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -59,9 +97,19 @@
       "source": "./plugins/distributed-gummy-orchestrator",
       "description": "Orchestrate gummy-agents across distributed network using 'dw' command for load-balanced, multi-host AI development. Automates distributed Claude Code agents for parallel development workflows.",
       "version": "1.0.0",
-      "author": { "name": "WillyV3" },
+      "author": {
+        "name": "WillyV3"
+      },
       "category": "development",
-      "keywords": ["gummy", "distributed", "orchestration", "ai-agents", "load-balancing", "multi-host", "claude-code"],
+      "keywords": [
+        "gummy",
+        "distributed",
+        "orchestration",
+        "ai-agents",
+        "load-balancing",
+        "multi-host",
+        "claude-code"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -70,9 +118,20 @@
       "source": "./plugins/chuqlab-css-theme",
       "description": "Chuqlab brand CSS design system for Tailwind CSS v4. Includes brand color palette (primary navy #141246, secondary red #EC1848, accent blue #0842EA), Geist font configuration, utility classes, and design guidelines with WCAG compliance.",
       "version": "1.0.0",
-      "author": { "name": "Cornelius George" },
+      "author": {
+        "name": "Cornelius George"
+      },
       "category": "design",
-      "keywords": ["css", "tailwind", "design-system", "brand", "theme", "chuqlab", "colors", "typography"],
+      "keywords": [
+        "css",
+        "tailwind",
+        "design-system",
+        "brand",
+        "theme",
+        "chuqlab",
+        "colors",
+        "typography"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -81,9 +140,23 @@
       "source": "./plugins/cie-builder",
       "description": "Build the Chuqlab Intelligence Engine (CIE) - a multi-tenant correctional intelligence platform. Guides phased, TDD-driven development of a GovTech law enforcement platform on GCP with Go backend, React/Next.js frontend, Whisper transcription, Ruvector vector search, and full TX-RAMP/CJIS compliance.",
       "version": "1.0.0",
-      "author": { "name": "Cornelius George" },
+      "author": {
+        "name": "Cornelius George"
+      },
       "category": "development",
-      "keywords": ["cie", "correctional-intelligence", "govtech", "law-enforcement", "whisper", "ruvector", "tdd", "gcp", "compliance", "cjis", "tx-ramp"],
+      "keywords": [
+        "cie",
+        "correctional-intelligence",
+        "govtech",
+        "law-enforcement",
+        "whisper",
+        "ruvector",
+        "tdd",
+        "gcp",
+        "compliance",
+        "cjis",
+        "tx-ramp"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -92,9 +165,19 @@
       "source": "./plugins/effective-go",
       "description": "Idiomatic Go architecture and design. Teaches Claude the five design instincts that separate Go code from translated Java/Python: zero-value construction, consumer-defined interfaces, embedding over inheritance, typed constants, and stdlib-first development. Proven: 10% to 60% interface usage rate, non-coder with skill beats CS-dev without.",
       "version": "5.0.0",
-      "author": { "name": "William VanSickle III" },
+      "author": {
+        "name": "William VanSickle III"
+      },
       "category": "development",
-      "keywords": ["go", "golang", "architecture", "design", "interfaces", "charmbracelet", "idiomatic"],
+      "keywords": [
+        "go",
+        "golang",
+        "architecture",
+        "design",
+        "interfaces",
+        "charmbracelet",
+        "idiomatic"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -103,9 +186,21 @@
       "source": "./plugins/effective-claude",
       "description": "Design thinking for building systems with Claude Code. Covers hooks, daemons, agent pipelines, skills, multi-agent systems, and autonomous operations. Synthesized from Anthropic's agent research, AutoAgent, Boris Cherny's workflow, and production experience. The core finding: the bottleneck is harness design, not model capability.",
       "version": "2.0.0",
-      "author": { "name": "William VanSickle III" },
+      "author": {
+        "name": "William VanSickle III"
+      },
       "category": "methodology",
-      "keywords": ["claude-code", "agents", "daemon", "hooks", "skills", "design", "methodology", "autonomous", "pipelines"],
+      "keywords": [
+        "claude-code",
+        "agents",
+        "daemon",
+        "hooks",
+        "skills",
+        "design",
+        "methodology",
+        "autonomous",
+        "pipelines"
+      ],
       "license": "MIT",
       "strict": false
     },
@@ -114,9 +209,42 @@
       "source": "./plugins/claude-peers",
       "description": "Peer discovery and messaging between Claude Code sessions. UCAN-authenticated, multi-machine, push-delivered. Sessions see each other, send messages, share context automatically. Auto-installs the correct platform binary from GitHub releases on first use.",
       "version": "0.2.0",
-      "author": { "name": "Human Frontier Labs" },
+      "author": {
+        "name": "Human Frontier Labs"
+      },
       "category": "infrastructure",
-      "keywords": ["peers", "multi-agent", "fleet", "messaging", "mcp", "ucan", "distributed"],
+      "keywords": [
+        "peers",
+        "multi-agent",
+        "fleet",
+        "messaging",
+        "mcp",
+        "ucan",
+        "distributed"
+      ],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "effective-esp32",
+      "source": "./plugins/effective-esp32",
+      "description": "Embedded systems design for ESP32/Arduino. Built from a measured baseline: skips re-teaching the architecture Claude already does well and fills the two gaps it misses -- exact ISR primitives (IRAM_ATTR + FromISR + portYIELD_FROM_ISR) and measure-before-tune validation. Proven: blind 12-iter benchmark vs authority rubric, 24.25/25, beat no-skill baseline 12-0-0.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "development",
+      "keywords": [
+        "esp32",
+        "esp32-c3",
+        "esp32-s3",
+        "arduino",
+        "firmware",
+        "embedded",
+        "freertos",
+        "isr",
+        "architecture"
+      ],
       "license": "MIT",
       "strict": false
     }
