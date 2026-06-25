@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code plugin marketplace - TUI tools, coding standards, AI agent infrastructure, and design methodology",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -244,6 +244,29 @@
         "freertos",
         "isr",
         "architecture"
+      ],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "building-effective-skills",
+      "source": "./plugins/building-effective-skills",
+      "description": "Meta-skill for building Claude skills that measurably improve output. Gather canonical docs (pith) -> detect where the model drops the ball one-shot AND multi-turn -> distill only the gap -> validate with a blind 4-cell benchmark and a multi-turn drift test. Use when creating/improving a skill, turning docs into a skill, or deciding whether a skill is worth building. Proven: a skill prevented multi-turn drift 13-0 across two stacks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "methodology",
+      "keywords": [
+        "skills",
+        "meta-skill",
+        "skill-authoring",
+        "benchmark",
+        "evals",
+        "context-engineering",
+        "pith",
+        "drift",
+        "claude-code"
       ],
       "license": "MIT",
       "strict": false
