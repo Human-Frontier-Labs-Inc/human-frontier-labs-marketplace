@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code plugin marketplace - TUI tools, coding standards, AI agent infrastructure, and design methodology",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -267,6 +267,31 @@
         "pith",
         "drift",
         "claude-code"
+      ],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "effective-expo",
+      "source": "./plugins/effective-expo",
+      "description": "Architecture guidance for cross-platform Expo apps (iOS, Android, web) from one codebase \u2014 keeps a growing app factored without over-building it. Share the brains (TypeScript logic), not the UI; add structure only when it earns its place. Covers expo-router, monorepo layout, platform divergence, NativeWind, EAS Build/Update, and version-specific SDK/config gotchas (autolinking, New Architecture, runtimeVersion, EXPO_PUBLIC secrets). Use when building or extending an Expo / React Native app. Proven: beat no-skill 9-1 pairwise on a multi-turn cross-platform drift benchmark.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "development",
+      "keywords": [
+        "expo",
+        "react-native",
+        "ios",
+        "android",
+        "expo-router",
+        "nativewind",
+        "eas",
+        "monorepo",
+        "cross-platform",
+        "mobile",
+        "architecture"
       ],
       "license": "MIT",
       "strict": false
