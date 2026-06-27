@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code plugin marketplace - TUI tools, coding standards, AI agent infrastructure, and design methodology",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -292,6 +292,30 @@
         "cross-platform",
         "mobile",
         "architecture"
+      ],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "opencode-harness",
+      "source": "./plugins/opencode-harness",
+      "description": "Set up and use the OpenCode 'zen' model harness in any project \u2014 route agent work to cheaper models by capability (fast=kimi-k2.6, reasoning-heavy/code-generation=glm-5.2) to save Claude's token budget, with Claude orchestrating and validating. One-command setup writes ~/.config/vinay-agent/config.toml and tests both models end-to-end; ask.sh calls a profile; /opencode-harness command included. Built by dogfooding \u2014 measured routing findings included. Use when integrating OpenCode, offloading reasoning/codegen to a cheap endpoint, or deciding which model a task should go to.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "development",
+      "keywords": [
+        "opencode",
+        "vinay-agent",
+        "kimi",
+        "glm",
+        "model-routing",
+        "token-saving",
+        "harness",
+        "llm",
+        "cost",
+        "agents"
       ],
       "license": "MIT",
       "strict": false
