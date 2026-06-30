@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code plugin marketplace - TUI tools, coding standards, AI agent infrastructure, and design methodology",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -316,6 +316,30 @@
         "llm",
         "cost",
         "agents"
+      ],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "effective-tmux",
+      "source": "./plugins/effective-tmux",
+      "description": "Operate tmux as an agentic multiplexer on a live, shared machine \u2014 run/coordinate parallel background work without mangling the user's or other agents' sessions. For Claude DRIVING the tmux CLI (not configuring tmux). Deterministic ownership (cc- namespacing, exact =name/%id targeting), native coordination (wait-for zero-poll, pane @options IPC), and lifecycle (track/teardown, never kill-server). Includes cc-tmux.sh lifecycle helper. Built measured-first: fills the gap (ownership + coordination primitives) and skips what the model already does well. Proven: closes the gap 3/3 vs no-skill, 6/6 safe on adversarial traps.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "development",
+      "keywords": [
+        "tmux",
+        "agentic",
+        "multiplexer",
+        "sessions",
+        "wait-for",
+        "parallel",
+        "orchestration",
+        "background-jobs",
+        "cli",
+        "fleet"
       ],
       "license": "MIT",
       "strict": false
