@@ -1,0 +1,6 @@
+Breadboard graphics: Fritzing parts library (CC-BY-SA 3.0). https://github.com/fritzing/fritzing-parts
+
+Exception: lm386breadboard.svg is a clean generic DIP-8 body authored for this repo
+(not from Fritzing) — reusable for any DIP-8 chip by changing the face text + pin map.
+
+esp32c3supermini.svg: ESP32-C3 SuperMini part by 'vanepp' via forum.fritzing.org (CC-BY-SA).

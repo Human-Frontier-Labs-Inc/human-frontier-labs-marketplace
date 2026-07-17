@@ -1,0 +1,23 @@
+{
+  "title": "EXAMPLE B · NPN LED driver — base resistor, collector load",
+  "width": 1000, "height": 640, "routing": "ortho",
+  "components": [
+    { "type": "bus", "id": "v5",  "x1": 180, "x2": 940, "y": 110, "label": "5V",  "color": "red" },
+    { "type": "bus", "id": "gnd", "x1": 180, "x2": 940, "y": 540, "label": "GND", "color": "black" },
+    { "id": "power", "part": "power", "x": 40, "y": 250, "label": "5V in", "labelpos": "bottom" },
+    { "id": "rc", "part": "resistor", "x": 560, "y": 180, "rotate": 90, "label": "330Ω", "labelpos": "left" },
+    { "id": "led", "part": "led", "x": 600, "y": 300 },
+    { "id": "q1", "part": "npn", "x": 560, "y": 430, "label": "2N2222", "labelpos": "right" },
+    { "id": "rb", "part": "resistor", "x": 320, "y": 450, "label": "1k base", "labelpos": "top" }
+  ],
+  "wires": [
+    { "from": ["power", "5.0V"], "to": ["v5"],  "color": "red" },
+    { "from": ["power", "GND"],  "to": ["gnd"], "color": "black" },
+    { "from": ["rc", "Pin 0"],  "to": ["v5"],           "color": "red" },
+    { "from": ["rc", "Pin 1"],  "to": ["led", "anode"], "color": "orange" },
+    { "from": ["led", "cathode"], "to": ["q1", "C"],    "color": "brown" },
+    { "from": ["q1", "E"], "to": ["gnd"],               "color": "black" },
+    { "from": ["rb", "Pin 1"], "to": ["q1", "B"],       "color": "violet" },
+    { "from": ["rb", "Pin 0"], "to": ["v5"],            "color": "red" }
+  ]
+}

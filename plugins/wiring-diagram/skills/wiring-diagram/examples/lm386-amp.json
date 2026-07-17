@@ -1,0 +1,43 @@
+{
+  "title": "PIEZO AMP · piezo → 10k volume → LM386 (gain 200) → 3W speaker",
+  "width": 1640, "height": 1000, "routing": "ortho",
+  "components": [
+    { "type": "bus", "id": "v5",  "x1": 200, "x2": 1580, "y": 130, "label": "V+ 5V", "color": "red" },
+    { "type": "bus", "id": "gnd", "x1": 200, "x2": 1580, "y": 880, "label": "GND", "color": "black" },
+
+    { "id": "power", "part": "power", "x": 40,  "y": 360, "label": "5V in", "labelpos": "bottom" },
+    { "id": "piezo", "part": "piezo", "x": 250, "y": 560, "label": "PIEZO pad", "labelpos": "bottom" },
+    { "id": "vol",   "part": "pot",   "x": 470, "y": 560, "label": "10k VOL", "labelpos": "bottom" },
+    { "id": "u1",    "part": "lm386", "x": 720, "y": 420 },
+    { "id": "cg",    "part": "ecap",  "x": 600, "y": 560, "label": "10µF gain", "labelpos": "left" },
+    { "id": "cp",    "part": "ecap",  "x": 940, "y": 220, "label": "100µF", "labelpos": "right" },
+    { "id": "cd",    "part": "cerc",  "x": 1050, "y": 240, "label": "0.1µF", "labelpos": "right" },
+    { "id": "co",    "part": "ecap",  "x": 1080, "y": 430, "label": "220µF", "labelpos": "top" },
+    { "id": "spk",   "part": "speaker", "x": 1320, "y": 430, "label": "3W 4Ω", "labelpos": "bottom" }
+  ],
+  "wires": [
+    { "from": ["power", "5.0V"], "to": ["v5"],  "color": "red" },
+    { "from": ["power", "GND"],  "to": ["gnd"], "color": "black" },
+
+    { "from": ["piezo", "pin1"], "to": ["vol", "leg1"], "color": "cyan" },
+    { "from": ["piezo", "pin2"], "to": ["gnd"],         "color": "black" },
+    { "from": ["vol", "leg2"],   "to": ["gnd"],         "color": "black" },
+    { "from": ["vol", "wiper"],  "to": ["u1", "+IN"],   "color": "cyan" },
+
+    { "from": ["u1", "-IN"], "to": ["gnd"], "color": "black" },
+    { "from": ["u1", "GND"], "to": ["gnd"], "color": "black" },
+    { "from": ["u1", "V+"],  "to": ["v5"],  "color": "red" },
+
+    { "from": ["u1", "G1"], "to": ["cg", "+"], "color": "green" },
+    { "from": ["u1", "G8"], "to": ["cg", "-"], "color": "green" },
+
+    { "from": ["cp", "+"], "to": ["v5"],  "color": "red" },
+    { "from": ["cp", "-"], "to": ["gnd"], "color": "black" },
+    { "from": ["cd", "0"], "to": ["v5"],  "color": "red" },
+    { "from": ["cd", "1"], "to": ["gnd"], "color": "black" },
+
+    { "from": ["u1", "OUT"], "to": ["co", "+"],        "color": "blue" },
+    { "from": ["co", "-"],   "to": ["spk", "pin1"],    "color": "blue" },
+    { "from": ["spk", "pin2"], "to": ["gnd"],          "color": "black" }
+  ]
+}

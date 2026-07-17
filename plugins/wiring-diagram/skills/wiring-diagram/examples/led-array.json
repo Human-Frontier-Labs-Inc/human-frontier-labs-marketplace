@@ -1,0 +1,28 @@
+{
+  "title": "EXAMPLE A · LED array — 3× (resistor + LED) off 5V",
+  "width": 1120, "height": 620, "routing": "ortho",
+  "components": [
+    { "type": "bus", "id": "v5",  "x1": 180, "x2": 1060, "y": 110, "label": "5V",  "color": "red" },
+    { "type": "bus", "id": "gnd", "x1": 180, "x2": 1060, "y": 520, "label": "GND", "color": "black" },
+    { "id": "power", "part": "power", "x": 40, "y": 240, "label": "5V in", "labelpos": "bottom" },
+    { "id": "r1", "part": "resistor", "x": 380, "y": 190, "label": "220Ω", "labelpos": "top" },
+    { "id": "d1", "part": "led", "x": 420, "y": 340 },
+    { "id": "r2", "part": "resistor", "x": 600, "y": 190, "label": "220Ω", "labelpos": "top" },
+    { "id": "d2", "part": "led", "x": 640, "y": 340 },
+    { "id": "r3", "part": "resistor", "x": 820, "y": 190, "label": "220Ω", "labelpos": "top" },
+    { "id": "d3", "part": "led", "x": 860, "y": 340 }
+  ],
+  "wires": [
+    { "from": ["power", "5.0V"], "to": ["v5"],  "color": "red" },
+    { "from": ["power", "GND"],  "to": ["gnd"], "color": "black" },
+    { "from": ["r1", "Pin 0"], "to": ["v5"],           "color": "red" },
+    { "from": ["r1", "Pin 1"], "to": ["d1", "anode"],  "color": "orange" },
+    { "from": ["d1", "cathode"], "to": ["gnd"],        "color": "black" },
+    { "from": ["r2", "Pin 0"], "to": ["v5"],           "color": "red" },
+    { "from": ["r2", "Pin 1"], "to": ["d2", "anode"],  "color": "orange" },
+    { "from": ["d2", "cathode"], "to": ["gnd"],        "color": "black" },
+    { "from": ["r3", "Pin 0"], "to": ["v5"],           "color": "red" },
+    { "from": ["r3", "Pin 1"], "to": ["d3", "anode"],  "color": "orange" },
+    { "from": ["d3", "cathode"], "to": ["gnd"],        "color": "black" }
+  ]
+}

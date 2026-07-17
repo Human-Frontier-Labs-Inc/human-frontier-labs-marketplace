@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="0.40in" height="0.33in" viewBox="0 0 40 33">
+ <g id="breadboard">
+  <rect id="connector0pin" x="3.5"  y="28.66" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect id="connector1pin" x="13.5" y="28.66" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect id="connector2pin" x="23.5" y="28.66" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect id="connector3pin" x="33.5" y="28.66" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect id="connector4pin" x="33.5" y="0" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect id="connector5pin" x="23.5" y="0" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect id="connector6pin" x="13.5" y="0" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect id="connector7pin" x="3.5"  y="0" width="3" height="4.34" fill="#8C8C8C"/>
+  <rect x="1.2" y="4.34" width="37.6" height="24.32" rx="1.4" fill="#1b1b1b"/>
+  <path d="M 16 4.34 a 4 4 0 0 0 8 0 z" fill="#2c2c2c"/>
+  <circle cx="6.2" cy="24.4" r="1.5" fill="#3a3a3a"/>
+  <text x="20" y="18.4" fill="#dcdcdc" font-family="monospace" font-size="6.4" font-weight="700" text-anchor="middle">LM386</text>
+  <rect id="connector0terminal" x="3.5"  y="30" width="3" height="3" fill="#8C8C8C"/>
+  <rect id="connector1terminal" x="13.5" y="30" width="3" height="3" fill="#8C8C8C"/>
+  <rect id="connector2terminal" x="23.5" y="30" width="3" height="3" fill="#8C8C8C"/>
+  <rect id="connector3terminal" x="33.5" y="30" width="3" height="3" fill="#8C8C8C"/>
+  <rect id="connector4terminal" x="33.5" y="0" width="3" height="3" fill="#8C8C8C"/>
+  <rect id="connector5terminal" x="23.5" y="0" width="3" height="3" fill="#8C8C8C"/>
+  <rect id="connector6terminal" x="13.5" y="0" width="3" height="3" fill="#8C8C8C"/>
+  <rect id="connector7terminal" x="3.5"  y="0" width="3" height="3" fill="#8C8C8C"/>
+ </g>
+</svg>

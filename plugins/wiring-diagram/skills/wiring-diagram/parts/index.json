@@ -1,0 +1,200 @@
+{
+ "ne555": {
+  "fzp": "ne555.fzp",
+  "svg": "555timerbreadboard.svg",
+  "pins": {
+   "Reset": "connector3terminal",
+   "Control Voltage": "connector4terminal",
+   "Threshold": "connector5terminal",
+   "Discharge": "connector6terminal",
+   "Vcc Supply Voltage": "connector7terminal",
+   "Ground": "connector0terminal",
+   "Trigger": "connector1terminal",
+   "Output": "connector2terminal"
+  },
+  "label": "555 Timer"
+ },
+ "pot": {
+  "fzp": "pot.fzp",
+  "svg": "potentiometer_rotary_16mm_5_breadboard.svg",
+  "pins": {
+   "leg1": "connector0terminal",
+   "wiper": "connector1terminal",
+   "leg2": "connector2terminal"
+  },
+  "label": "Rotary Potentiometer (Large)"
+ },
+ "led": {
+  "fzp": "led.fzp",
+  "svg": "LED-5mm-red-leg.svg",
+  "pins": {
+   "cathode": "connector0pin",
+   "anode": "connector1pin"
+  },
+  "label": "Red LED - 5mm"
+ },
+ "power": {
+  "fzp": "power.fzp",
+  "svg": "PowerBoost500C-Adafruit_breadboard.svg",
+  "pins": {
+   "GND BAT IN": "connector0pin",
+   "VBAT IN": "connector1pin",
+   "VBAT OUT": "connector22pin",
+   "ENABLE": "connector23pin",
+   "GND": "connector29pin",
+   "LBO": "connector25pin",
+   "5.0V": "connector27pin",
+   "USB": "connector28pin"
+  },
+  "label": "PowerBoost 500 Charger"
+ },
+ "ecap": {
+  "fzp": "ecap.fzp",
+  "svg": "electrolytic_capacitor_1000uF_35v_leg.svg",
+  "pins": {
+   "-": "connector0pin",
+   "+": "connector1pin"
+  },
+  "label": "Electrolytic Capacitor"
+ },
+ "npn": {
+  "fzp": "npn.fzp",
+  "svg": "transistor_npn.svg",
+  "pins": {
+   "E": "connector0pin",
+   "B": "connector1pin",
+   "C": "connector2pin"
+  },
+  "label": "NPN-Transistor"
+ },
+ "resistor": {
+  "fzp": "resistor.fzp",
+  "svg": "resistor_220.svg",
+  "pins": {
+   "Pin 0": "connector0pin",
+   "Pin 1": "connector1pin"
+  },
+  "label": "220 \u2126 Resistor"
+ },
+ "speaker": {
+  "fzp": "speaker.fzp",
+  "svg": "loudspeaker.svg",
+  "pins": {
+   "pin1": "connector0pin",
+   "pin2": "connector1pin"
+  },
+  "label": "Speaker 8\u03a9"
+ },
+ "piezo": {
+  "fzp": "piezo.fzp",
+  "svg": "piezo_sensor.svg",
+  "pins": {
+   "pin1": "connector0pin",
+   "pin2": "connector1pin"
+  },
+  "label": "Piezo disc"
+ },
+ "cerc": {
+  "fzp": "cerc.fzp",
+  "svg": "ceramic_capacitor_blue_leg.svg",
+  "pins": {
+   "0": "connector0pin",
+   "1": "connector1pin"
+  },
+  "label": "Ceramic cap"
+ },
+ "lm386": {
+  "fzp": "(hand-authored DIP-8 body)",
+  "svg": "lm386breadboard.svg",
+  "pins": {
+   "G1": "connector0terminal",
+   "-IN": "connector1terminal",
+   "+IN": "connector2terminal",
+   "GND": "connector3terminal",
+   "OUT": "connector4terminal",
+   "V+": "connector5terminal",
+   "BYP": "connector6terminal",
+   "G8": "connector7terminal"
+  },
+  "label": "LM386 audio amp"
+ },
+ "esp32c3": {
+  "fzp": "esp32c3.fzp",
+  "svg": "esp32c3supermini.svg",
+  "pins": {
+   "IO5": "connector0pin",
+   "IO6": "connector1pin",
+   "IO7": "connector2pin",
+   "IO8": "connector3pin",
+   "IO9": "connector4pin",
+   "IO10": "connector5pin",
+   "IO20": "connector6pin",
+   "IO21": "connector7pin",
+   "IO0": "connector8pin",
+   "IO1": "connector9pin",
+   "IO2": "connector10pin",
+   "IO3": "connector11pin",
+   "IO4": "connector12pin",
+   "3V3": "connector13pin",
+   "GND": "connector14pin",
+   "5V": "connector15pin"
+  },
+  "label": "ESP32-C3 SuperMini"
+ },
+ "inmp441": {
+  "fzp": "inmp441.fzp",
+  "svg": "inmp441.svg",
+  "label": "INMP441 I2S mic",
+  "pins": {
+   "VDD": "connector5pin",
+   "GND": "connector6pin",
+   "SD": "connector4pin",
+   "SCK": "connector3pin",
+   "WS": "connector2pin",
+   "L/R": "connector1pin"
+  }
+ },
+ "button": {
+  "fzp": "button.fzp",
+  "svg": "basic_pbutton_2leg_horizon.svg",
+  "pins": {
+   "leg0": "connector0pin",
+   "leg1": "connector1pin"
+  },
+  "label": "Pushbutton"
+ },
+ "st7789ada": {
+  "fzp": "st7789.fzp",
+  "svg": "adafruit_d26e610be8c46f817316d00edf96f672_1_breadboard_F0.svg",
+  "pins": {
+   "VIN": "connector5pin",
+   "+3V3": "connector6pin",
+   "SCK": "connector8pin",
+   "MISO": "connector9pin",
+   "MOSI": "connector10pin",
+   "TFTCS": "connector11pin",
+   "TFTRST": "connector12pin",
+   "TFTDC": "connector13pin",
+   "CARDCS": "connector14pin",
+   "LITE": "connector15pin",
+   "TE": "connector16pin",
+   "GND": "connector7pin"
+  },
+  "label": "Adafruit 1.54in ST7789 240x240"
+ },
+ "st7789": {
+  "fzp": "(hand-authored, matches generic 7-pin board)",
+  "svg": "st7789_generic.svg",
+  "pins": {
+   "GND": "t0",
+   "VCC": "t1",
+   "SCL": "t2",
+   "SDA": "t3",
+   "RST": "t4",
+   "DC": "t5",
+   "CS": "t6",
+   "BL": "t7"
+  },
+  "label": "ST7789 1.54in (generic 7-pin)"
+ }
+}

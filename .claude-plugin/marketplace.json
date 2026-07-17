@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public Claude Code plugin marketplace - TUI tools, coding standards, AI agent infrastructure, and design methodology",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -340,6 +340,28 @@
         "background-jobs",
         "cli",
         "fleet"
+      ],
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "wiring-diagram",
+      "source": "./plugins/wiring-diagram",
+      "description": "Generate pictorial (breadboard-style) wiring diagrams for hardware builds from a small JSON spec \u2014 real Fritzing part photos + clean colored point-to-point wires, rendered offline and headless via Chromium. Use when asked to make, update, or fix a wiring diagram, hookup guide, or 'how do I wire this' picture for an ESP32/Pi/Arduino/discrete-component build. Pictorial, not schematic (the reader can't read schematics); not for PCB layout.",
+      "version": "1.0.0",
+      "author": {
+        "name": "William VanSickle III"
+      },
+      "category": "development",
+      "keywords": [
+        "wiring-diagram",
+        "fritzing",
+        "breadboard",
+        "hardware",
+        "esp32",
+        "raspberry-pi",
+        "electronics",
+        "hookup-guide"
       ],
       "license": "MIT",
       "strict": false

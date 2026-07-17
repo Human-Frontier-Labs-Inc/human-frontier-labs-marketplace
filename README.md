@@ -22,6 +22,7 @@ Or install individual plugins:
 /plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/bubbletea-maintenance
 /plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/tailscale-sshsync-agent
 /plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/distributed-gummy-orchestrator
+/plugin add Human-Frontier-Labs-Inc/human-frontier-labs-marketplace/wiring-diagram
 ```
 
 ---
@@ -186,6 +187,35 @@ Orchestrate gummy-agents across distributed network using 'dw' command for load-
 - Network connectivity between machines
 - 'dw' command configured
 - Host configuration file
+
+---
+
+### 🔌 Wiring Diagram
+
+**Category**: Development
+**Version**: 1.0.0
+
+Generate pictorial (breadboard-style) wiring diagrams from a small JSON spec — real Fritzing part photos + clean colored point-to-point wires, rendered offline and headless. The kind of diagram a beginner can follow to wire a circuit, not an abstract schematic.
+
+**Features:**
+- Parametric: author parts + a net list + rough positions; sizing, pin labels, leg ordering, obstacle-aware routing, and shared-rail fan-out are automatic
+- Real Fritzing breadboard graphics (CC-BY-SA 3.0), self-contained/offline rendering
+- Fails loud on a mistyped pin or unknown part (no silently dropped wires)
+- Bundled worked examples (555 blink, LED array, NPN driver, pot dimmer, LM386 amp)
+
+**Use When:**
+- Making a wiring diagram or hookup guide for an ESP32/Pi/Arduino/discrete-component build
+- Documenting "how do I wire this" for a build log or README
+- The reader can't read schematics and needs a picture
+
+**Not For:**
+- Schematic capture or PCB layout — that is Eagle/KiCad
+
+**Activation Keywords:**
+- "make a wiring diagram"
+- "show me how to wire this"
+- "draw a hookup guide"
+- "update the wiring diagram"
 
 ---
 

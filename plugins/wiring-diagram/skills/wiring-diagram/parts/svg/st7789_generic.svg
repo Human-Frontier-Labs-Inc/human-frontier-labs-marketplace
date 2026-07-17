@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1.18in" height="1.02in" viewBox="0 0 118 102">
+ <g id="board">
+  <rect x="10" y="2" width="106" height="98" rx="4" fill="#0d0d10" stroke="#000" stroke-width="1"/>
+  <rect x="30" y="8" width="80" height="86" rx="2" fill="#0f2036" stroke="#26466a" stroke-width="1.3"/>
+  <rect x="34" y="12" width="72" height="78" rx="1" fill="#14314f"/>
+  <text x="70" y="45" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#79b0e6">ST7789</text>
+  <text x="70" y="59" text-anchor="middle" font-family="monospace" font-size="6" fill="#4d7fac">1.54&quot; 240x240</text>
+  <rect x="4" y="10.5" width="6" height="3" fill="#c8c8c8"/><rect id="t0" x="4" y="10.8" width="3" height="2.4" fill="#c8c8c8"/><rect x="4" y="21.5" width="6" height="3" fill="#c8c8c8"/><rect id="t1" x="4" y="21.8" width="3" height="2.4" fill="#c8c8c8"/><rect x="4" y="32.5" width="6" height="3" fill="#c8c8c8"/><rect id="t2" x="4" y="32.8" width="3" height="2.4" fill="#c8c8c8"/><rect x="4" y="43.5" width="6" height="3" fill="#c8c8c8"/><rect id="t3" x="4" y="43.8" width="3" height="2.4" fill="#c8c8c8"/><rect x="4" y="54.5" width="6" height="3" fill="#c8c8c8"/><rect id="t4" x="4" y="54.8" width="3" height="2.4" fill="#c8c8c8"/><rect x="4" y="65.5" width="6" height="3" fill="#c8c8c8"/><rect id="t5" x="4" y="65.8" width="3" height="2.4" fill="#c8c8c8"/><rect x="4" y="76.5" width="6" height="3" fill="#c8c8c8"/><rect id="t6" x="4" y="76.8" width="3" height="2.4" fill="#c8c8c8"/><rect x="4" y="87.5" width="6" height="3" fill="#c8c8c8"/><rect id="t7" x="4" y="87.8" width="3" height="2.4" fill="#c8c8c8"/>
+ </g>
+</svg>

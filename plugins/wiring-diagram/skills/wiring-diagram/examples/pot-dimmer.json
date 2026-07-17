@@ -1,0 +1,20 @@
+{
+  "title": "EXAMPLE D · Pot dimmer (curve routing) — LED brightness knob",
+  "width": 1000, "height": 560, "routing": "curve",
+  "components": [
+    { "type": "bus", "id": "v5",  "x1": 180, "x2": 940, "y": 110, "label": "5V",  "color": "red" },
+    { "type": "bus", "id": "gnd", "x1": 180, "x2": 940, "y": 470, "label": "GND", "color": "black" },
+    { "id": "power", "part": "power", "x": 40, "y": 220, "label": "5V in", "labelpos": "bottom" },
+    { "id": "pot", "part": "pot", "x": 380, "y": 170, "label": "10k dim" },
+    { "id": "r1", "part": "resistor", "x": 560, "y": 260, "label": "220Ω", "labelpos": "top" },
+    { "id": "d1", "part": "led", "x": 760, "y": 250 }
+  ],
+  "wires": [
+    { "from": ["power", "5.0V"], "to": ["v5"],  "color": "red" },
+    { "from": ["power", "GND"],  "to": ["gnd"], "color": "black" },
+    { "from": ["pot", "leg1"], "to": ["v5"],           "color": "red" },
+    { "from": ["pot", "wiper"], "to": ["r1", "Pin 0"], "color": "orange" },
+    { "from": ["r1", "Pin 1"], "to": ["d1", "anode"],  "color": "orange" },
+    { "from": ["d1", "cathode"], "to": ["gnd"],        "color": "black" }
+  ]
+}
